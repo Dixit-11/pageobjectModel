@@ -40,10 +40,10 @@ public class BrowserManager extends Utils {
         driver.get ( loadProp.getProperty ( "url" ));
 
     }
-    public void close(){
-
-     driver.quit ();
+   public void close(){
+             driver.quit ();
+   }
 
 
     }
-}
+
